@@ -1,11 +1,8 @@
 import { memo } from 'react'
-import type { FC, ReactNode } from 'react'
+import type { FC } from 'react'
 
-interface IProps {
-  children?: ReactNode
-}
 
-const Dashboard: FC<IProps> = () => {
+const Dashboard: FC = () => {
   return (<div>Dashboard</div>)
 }
 
