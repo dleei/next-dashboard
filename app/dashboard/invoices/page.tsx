@@ -1,9 +1,7 @@
 import { memo } from 'react'
-import type { FC, ReactNode } from 'react'
+import type { FC } from 'react'
 
-const Invoices: FC<{
-  children?: ReactNode
-}> = () => {
+const Invoices: FC = () => {
   return <div>Invoices</div>
 }
 

@@ -1,11 +1,9 @@
 import { memo } from 'react'
-import type { FC, ReactNode } from 'react'
+import type { FC } from 'react'
 
 
 
-const Customers: FC<{
-  children?: ReactNode
-}> = () => {
+const Customers: FC = () => {
   return (<div>Customers</div>)
 }
 
