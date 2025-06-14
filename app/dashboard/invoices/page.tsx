@@ -1,12 +1,10 @@
 import { memo } from 'react'
 import type { FC, ReactNode } from 'react'
 
-interface IProps {
+const Invoices: FC<{
   children?: ReactNode
-}
-
-const Invoices: FC<IProps> = () => {
-  return (<div>Invoices</div>)
+}> = () => {
+  return <div>Invoices</div>
 }
 
 export default memo(Invoices)

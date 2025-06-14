@@ -1,11 +1,11 @@
 import { memo } from 'react'
 import type { FC, ReactNode } from 'react'
 
-interface IProps {
-  children?: ReactNode
-}
 
-const Customers: FC<IProps> = () => {
+
+const Customers: FC<{
+  children?: ReactNode
+}> = () => {
   return (<div>Customers</div>)
 }
 
